@@ -1,0 +1,26 @@
+PATH
+  remote: .
+  specs:
+    raccoon (0.0.1)
+      celluloid-io
+      xmpp4r
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    celluloid (0.12.3)
+      facter (>= 1.6.12)
+      timers (>= 1.0.0)
+    celluloid-io (0.12.0)
+      celluloid (~> 0.12.0)
+      nio4r (>= 0.4.0)
+    facter (1.6.15)
+    nio4r (0.4.3)
+    timers (1.0.1)
+    xmpp4r (0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  raccoon!

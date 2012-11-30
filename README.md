@@ -1,6 +1,11 @@
-# Raccoon
+=======
+# raccoon
+=======
 
-TODO: Write a gem description
+small tcp to jabber bridge
+
+
+
 
 ## Installation
 
