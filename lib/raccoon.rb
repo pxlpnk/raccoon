@@ -73,6 +73,7 @@ end
 
 
 module Raccoon
+  Celluloid.logger.level = Logger::WARN
   def self.run(config)
     jabber_config = config["jabber"]
     tcp_config = config["tcp"]
