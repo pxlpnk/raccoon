@@ -34,6 +34,7 @@ TODO: Write usage instructions here
 5. Create new Pull Request
 
 
+```yaml
 jabber:
   recipient: user@host.tld
   jabber_id: logbot@host.tld
@@ -42,3 +43,4 @@ jabber:
 tcp:
   host: localhost
   port: 2010
+```
