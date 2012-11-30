@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+require 'yaml'
+require 'raccoon'
+config = ARGV[0]
+config ||= File.join "etc", "raccoon.cfg"
+
+if File.exist?( config)
+  @config =  YAML::load( File.open(config) )
+  Raccoon.run(@config)
+else
+  puts "No configuration given! usage: raccoon config.yaml"
+end
